@@ -12,12 +12,9 @@ import OpenGL
 import trimesh
 
 try:
-    from Tkinter import Tk, tkFileDialog as filedialog
+    from tkinter import Tk, filedialog
 except Exception:
-    try:
-        from tkinter import Tk, filedialog as filedialog
-    except Exception:
-        pass
+    pass
 
 from .constants import (TARGET_OPEN_GL_MAJOR, TARGET_OPEN_GL_MINOR,
                         MIN_OPEN_GL_MAJOR, MIN_OPEN_GL_MINOR,
