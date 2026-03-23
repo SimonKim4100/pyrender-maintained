@@ -1,5 +1,5 @@
 # Pyrender
-Maintained version of pyrender to work on recent python, numpy versions
+Maintained version of pyrender to work on recent python(3.11+), numpy(2.0+) versions
 
 Credit to original authors: https://github.com/mmatl/pyrender
 
